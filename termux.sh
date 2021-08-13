@@ -25,5 +25,4 @@ fi
 echo "AVBv1 Setup Environment Completed"
 echo "You can now use sign script..."
 echo "Entering proot environment..."
-echo "Please manually enter 'sh sign.sh'..."
-proot -0
+proot -0 ./sign.sh
